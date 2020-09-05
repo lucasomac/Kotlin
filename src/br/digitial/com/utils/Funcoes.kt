@@ -1,8 +1,4 @@
-package br.digitial.com.aulakotlinsemob
-
-fun main() {
-    print(bascara(5.0, 3.0, 4.0));
-}
+package br.digitial.com.utils
 
 fun bascara(a: Double, b: Double, c: Double) {
     val delta = Math.pow(b, 2.0) - 4 * a * c;
@@ -10,11 +6,7 @@ fun bascara(a: Double, b: Double, c: Double) {
         println(-b + Math.sqrt(delta) / 2 * a);
         println(-b - Math.sqrt(delta) / 2 * a);
     } else {
-        if (delta == 0.0) {
-            println(-b + Math.sqrt(delta) / 2 * a);
-        } else {
-            println("Não possui raiz");
-        }
+        if (delta == 0.0) println(-b + Math.sqrt(delta) / 2 * a) else println("Não possui raiz")
     }
 }
 
