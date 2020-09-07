@@ -1,4 +1,4 @@
-package br.digitial.com.santander
+package br.digitial.com.aula05.ex01
 
 import java.math.BigDecimal
 

@@ -1,4 +1,4 @@
-package br.digitial.com.aulakotlinsemob
+package br.digitial.com.aula04
 
 fun main() {
     print(q1(23, 56, 89))
