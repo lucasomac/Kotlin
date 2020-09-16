@@ -3,8 +3,8 @@ package br.digitial.com.aula06.santander
 import java.math.BigDecimal
 import java.util.*
 
-fun main() {
 
+fun main() {
     var conta1 = Poupanca(BigDecimal.valueOf(500), Cliente(1, "Macedo", "79856", "01236548975"))
     var conta2 =
         Corrente(BigDecimal.valueOf(500), Cliente(1, "Félix", "23622", "91276348925"), BigDecimal.valueOf(15000))
@@ -24,6 +24,4 @@ fun main() {
     conta2.depositarCheque(Cheque(BigDecimal.valueOf(12), "C6", Date(2020, 9, 9)))
     conta2.depositarCheque(Cheque(BigDecimal.valueOf(12), "Digio", Date(2020, 9, 1)))
     println("O valor do saldo é de ${conta2.consultarSaldo()}")
-
-
 }

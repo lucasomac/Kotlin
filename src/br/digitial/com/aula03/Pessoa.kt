@@ -1,4 +1,4 @@
-package br.digitial.com.aulakotlinpoo
+package br.digitial.com.aula03
 
 class Pessoa(var name: String, var sobrenome: String, var idade: Int) {
     init {
